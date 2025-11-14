@@ -5,8 +5,8 @@ board = Board.get_default_board();
 
 
 board.wait_for_button();
-left_motor.set_speed(20);
-right_motor.set_speed(20);
-time.sleep(2);
+left_motor.set_speed(5);
+right_motor.set_speed(-5);
+time.sleep(3);
 left_motor.set_speed(0);
 right_motor.set_speed(0);
