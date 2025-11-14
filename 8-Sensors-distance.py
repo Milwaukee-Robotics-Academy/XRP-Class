@@ -7,8 +7,7 @@ rangefinder = Rangefinder.get_default.rangefinder();
 
 
 while True:
-    print("Right", reflectance.get_right_reflectance());
-    print("Left", reflectance.get_left_reflectance());
+    print(rangefinder.get_distance());
     time.sleep(0.1);
 
 #board.wait_for_button();
