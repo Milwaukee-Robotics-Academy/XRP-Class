@@ -1,6 +1,5 @@
 .. include:: ../README.rst
 
-Welcome to Milwaukee Robotics Academy XRP Class documentation!
 ===================================
 
 
